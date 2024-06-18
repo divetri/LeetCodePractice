@@ -36,6 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solution\OddPowCode.cs" />
     <Compile Include="Solution\TwoSumCode.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
