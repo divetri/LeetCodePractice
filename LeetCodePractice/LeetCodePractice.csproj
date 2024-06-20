@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="Solution\OddPowCode.cs" />
     <Compile Include="Solution\PalindromeNumberCode.cs" />
+    <Compile Include="Solution\RomanToIntegerCode.cs" />
     <Compile Include="Solution\TwoSumCode.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>

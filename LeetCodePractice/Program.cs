@@ -32,6 +32,10 @@ namespace LeetCodePractice
                         Solution.PalindromeNumberCode.PalindromeNumber();
                         waitForContinue();
                         break;
+                    case 3:
+                        Solution.RomanToIntegerCode.RomanToInteger();
+                        waitForContinue();
+                        break;
                     default:
                         Console.WriteLine("Invalid input.");
                         waitForContinue();
