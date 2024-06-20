@@ -13,11 +13,14 @@ namespace LeetCodePractice.Solution
             int[] output = new int[2];
             for (int i = 0; i < nums.Length; i++)
             {
-                if (nums.Contains(target - nums[i]))
+                for (int j = i + 1; j < nums.Length; j++)
                 {
-                    output[0] = i;
-                    output[1] = Array.IndexOf(nums, (target - nums[i]));
-                    continue;
+                    if (nums[i] + nums[j] == target)
+                    {
+                        output[0] = i;
+                        output[1] = j;
+                        return output;
+                    }
                 }
             }
             return output;
@@ -40,20 +43,31 @@ namespace LeetCodePractice.Solution
                 input = Console.ReadLine();
             }
             numbers = nums.ToArray();
-            TwoSum(numbers, 9);
+            Console.Write("Input number of target: ");
+            if (!Int32.TryParse(Console.ReadLine(), out int target))
+            Console.WriteLine("Invalid input.");
+            else TwoSum(numbers, target);
         }
         private static void TwoSum(int[] nums, int target)
         {
-            string output = "";
+            int[] output = new int[2];
             for (int i = 0; i < nums.Length; i++)
             {
-                if (nums.Contains(target - nums[i]))
+                for (int j = i + 1; j < nums.Length; j++)
                 {
-                    output += i + " " + Array.IndexOf(nums, (target - nums[i]));
-                    break;
+                    if (nums[i] + nums[j] == target)
+                    {
+                        output[0] = i;
+                        output[1] = j;
+                        break;
+                    }
                 }
             }
-            Console.WriteLine(output);
+            foreach (int i in output)
+            {
+                Console.Write("{0} ", i.ToString());
+            }
+            Console.WriteLine();
         }
     }
 }
