@@ -11,7 +11,7 @@ namespace LeetCodePractice.Solution
         public static int[] TwoSumLeetCode(int[] nums, int target)
         {
             int[] output = new int[2];
-            for (int i = 0; i < (nums.Length / 2) + 1; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
                 if (nums.Contains(target - nums[i]))
                 {
@@ -22,11 +22,30 @@ namespace LeetCodePractice.Solution
             }
             return output;
         }
-
-        public static void TwoSum(int[] nums, int target)
+        public static void TwoSum()
+        {
+            List<int> nums = new List<int>();
+            int[] numbers;
+            int n;
+            Console.Write("Input number to iterate\n(Press number to add numbers, Press 'Y' to end): ");
+            string input = Console.ReadLine();
+            while (Int32.TryParse(input, out n))
+            {
+                nums.Add(n);
+                foreach (int i in nums)
+                {
+                    Console.Write("{0} ", i.ToString());
+                }
+                Console.WriteLine();
+                input = Console.ReadLine();
+            }
+            numbers = nums.ToArray();
+            TwoSum(numbers, 9);
+        }
+        private static void TwoSum(int[] nums, int target)
         {
             string output = "";
-            for (int i = 0; i < (nums.Length / 2) + 1; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
                 if (nums.Contains(target - nums[i]))
                 {
