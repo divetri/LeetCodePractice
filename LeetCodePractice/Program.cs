@@ -15,6 +15,7 @@ namespace LeetCodePractice
             Console.WriteLine("0. Odd Pow (Unknown)");
             Console.WriteLine("1. Two Sum (Easy)");
             Console.WriteLine("2. Palindrome Number (Easy)");
+            Console.WriteLine("3. Roman to Integer (Easy)");
             Console.Write("Input problem number: ");
             if (Int32.TryParse(Console.ReadLine(), out int quiz))
             {
