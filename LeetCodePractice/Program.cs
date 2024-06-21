@@ -16,6 +16,7 @@ namespace LeetCodePractice
             Console.WriteLine("1. Two Sum (Easy)");
             Console.WriteLine("2. Palindrome Number (Easy)");
             Console.WriteLine("3. Roman to Integer (Easy)");
+            Console.WriteLine("4. Valid Parentheses (Easy)");
             Console.Write("Input problem number: ");
             if (Int32.TryParse(Console.ReadLine(), out int quiz))
             {
@@ -35,6 +36,10 @@ namespace LeetCodePractice
                         break;
                     case 3:
                         Solution.RomanToIntegerCode.RomanToInteger();
+                        waitForContinue();
+                        break;
+                    case 4:
+                        Solution.ValidParenthesesCode.ValidParentheses();
                         waitForContinue();
                         break;
                     default:
