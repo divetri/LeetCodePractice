@@ -39,6 +39,7 @@
     <Compile Include="Solution\LongestCommonPrefixCode.cs" />
     <Compile Include="Solution\OddPowCode.cs" />
     <Compile Include="Solution\PalindromeNumberCode.cs" />
+    <Compile Include="Solution\RemoveElementCode.cs" />
     <Compile Include="Solution\RomanToIntegerCode.cs" />
     <Compile Include="Solution\TwoSumCode.cs" />
     <Compile Include="Program.cs" />

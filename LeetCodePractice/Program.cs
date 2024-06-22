@@ -18,6 +18,7 @@ namespace LeetCodePractice
             Console.WriteLine("3. Roman to Integer (Easy)");
             Console.WriteLine("4. Valid Parentheses (Easy)");
             Console.WriteLine("5. Longest Common Prefix (Easy)");
+            Console.WriteLine("6. Remove Element (Easy)");
             Console.Write("Input problem number: ");
             if (Int32.TryParse(Console.ReadLine(), out int quiz))
             {
@@ -45,6 +46,10 @@ namespace LeetCodePractice
                         break;
                     case 5:
                         Solution.LongestCommonPrefixCode.LongestCommonPrefix();
+                        waitForContinue();
+                        break;
+                    case 6:
+                        Solution.RemoveElementCode.RemoveElement();
                         waitForContinue();
                         break;
                     default:

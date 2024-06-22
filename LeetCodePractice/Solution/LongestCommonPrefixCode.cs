@@ -10,7 +10,7 @@ namespace LeetCodePractice.Solution
     {
         public static void LongestCommonPrefix()
         {
-            //help i need better way to unit test
+            //help, better way to unit test is needed
             string[] strs1 = { "flower", "flow", "flight" };
             string[] strs2 = { "dog", "racecar", "car" };
             string[] strs3 = { "ab", "a" };
