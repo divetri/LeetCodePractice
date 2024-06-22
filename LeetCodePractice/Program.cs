@@ -17,6 +17,7 @@ namespace LeetCodePractice
             Console.WriteLine("2. Palindrome Number (Easy)");
             Console.WriteLine("3. Roman to Integer (Easy)");
             Console.WriteLine("4. Valid Parentheses (Easy)");
+            Console.WriteLine("5. Longest Common Prefix (Easy)");
             Console.Write("Input problem number: ");
             if (Int32.TryParse(Console.ReadLine(), out int quiz))
             {
@@ -40,6 +41,10 @@ namespace LeetCodePractice
                         break;
                     case 4:
                         Solution.ValidParenthesesCode.ValidParentheses();
+                        waitForContinue();
+                        break;
+                    case 5:
+                        Solution.LongestCommonPrefixCode.LongestCommonPrefix();
                         waitForContinue();
                         break;
                     default:
