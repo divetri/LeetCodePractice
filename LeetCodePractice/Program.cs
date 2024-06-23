@@ -20,6 +20,7 @@ namespace LeetCodePractice
             Console.WriteLine("5. Longest Common Prefix (Easy)");
             Console.WriteLine("6. Remove Element (Easy)");
             Console.WriteLine("7. Integer to Roman (Medium)");
+            Console.WriteLine("8. Search Insert Position (Easy)");
             Console.Write("Input problem number: ");
             if (Int32.TryParse(Console.ReadLine(), out int quiz))
             {
@@ -55,6 +56,10 @@ namespace LeetCodePractice
                         break;
                     case 7:
                         Solution.IntegerToRomanCode.IntegerToRoman();
+                        waitForContinue();
+                        break;
+                    case 8:
+                        Solution.SearchInsertPositionCode.SearchInsertPosition();
                         waitForContinue();
                         break;
 
