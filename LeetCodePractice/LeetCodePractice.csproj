@@ -46,6 +46,7 @@
     <Compile Include="Solution\TwoSumCode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Solution\ValidParenthesesCode.cs" />
+    <Compile Include="Solution\ValidSudokuCode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

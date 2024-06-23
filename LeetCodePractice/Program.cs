@@ -21,6 +21,7 @@ namespace LeetCodePractice
             Console.WriteLine("6. Remove Element (Easy)");
             Console.WriteLine("7. Integer to Roman (Medium)");
             Console.WriteLine("8. Search Insert Position (Easy)");
+            Console.WriteLine("9. Valid Sudoku (Medium)");
             Console.Write("Input problem number: ");
             if (Int32.TryParse(Console.ReadLine(), out int quiz))
             {
@@ -60,6 +61,10 @@ namespace LeetCodePractice
                         break;
                     case 8:
                         Solution.SearchInsertPositionCode.SearchInsertPosition();
+                        waitForContinue();
+                        break;
+                    case 9:
+                        Solution.ValidSudokuCode.ValidSudoku();
                         waitForContinue();
                         break;
 
