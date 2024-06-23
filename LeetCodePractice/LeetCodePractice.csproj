@@ -36,6 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solution\IntegerToRomanCode.cs" />
     <Compile Include="Solution\LongestCommonPrefixCode.cs" />
     <Compile Include="Solution\OddPowCode.cs" />
     <Compile Include="Solution\PalindromeNumberCode.cs" />

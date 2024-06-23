@@ -11,7 +11,7 @@ namespace LeetCodePractice
         public static void Main()
         {
             Console.Clear();
-            Console.WriteLine("-------------");
+            Console.WriteLine("-------LIST OF PROBLEMS SOLVED-------");
             Console.WriteLine("0. Odd Pow (Unknown)");
             Console.WriteLine("1. Two Sum (Easy)");
             Console.WriteLine("2. Palindrome Number (Easy)");
@@ -19,6 +19,7 @@ namespace LeetCodePractice
             Console.WriteLine("4. Valid Parentheses (Easy)");
             Console.WriteLine("5. Longest Common Prefix (Easy)");
             Console.WriteLine("6. Remove Element (Easy)");
+            Console.WriteLine("7. Integer to Roman (Medium)");
             Console.Write("Input problem number: ");
             if (Int32.TryParse(Console.ReadLine(), out int quiz))
             {
@@ -52,6 +53,11 @@ namespace LeetCodePractice
                         Solution.RemoveElementCode.RemoveElement();
                         waitForContinue();
                         break;
+                    case 7:
+                        Solution.IntegerToRomanCode.IntegerToRoman();
+                        waitForContinue();
+                        break;
+
                     default:
                         Console.WriteLine("Invalid input.");
                         waitForContinue();
