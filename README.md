@@ -7,3 +7,6 @@ This is my repository for solutions of problems on LeetCode in C# program. You c
   4. [Easy - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
   5. [Easy - Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
   6. [Easy - Remove Element](https://leetcode.com/problems/remove-element/)
+  7. [Medium - Integer To Roman](https://leetcode.com/problems/integer-to-roman/)
+  8. [Easy - Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+  9. [Medium - Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
