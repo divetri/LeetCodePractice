@@ -10,3 +10,6 @@ This is my repository for solutions of problems on LeetCode in C# program. You c
   7. [Medium - Integer To Roman](https://leetcode.com/problems/integer-to-roman/)
   8. [Easy - Search Insert Position](https://leetcode.com/problems/search-insert-position/)
   9. [Medium - Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+  10. [Easy - Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+  11. [Easy - Find the Index of the First Occurence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+  12. [Medium - Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
