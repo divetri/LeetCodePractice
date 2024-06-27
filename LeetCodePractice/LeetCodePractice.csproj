@@ -36,8 +36,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solution\DivideTwoIntegerCode.cs" />
+    <Compile Include="Solution\FirstOccurenceCode.cs" />
     <Compile Include="Solution\IntegerToRomanCode.cs" />
     <Compile Include="Solution\LongestCommonPrefixCode.cs" />
+    <Compile Include="Solution\LongestOfLastWordCode.cs" />
     <Compile Include="Solution\OddPowCode.cs" />
     <Compile Include="Solution\PalindromeNumberCode.cs" />
     <Compile Include="Solution\RemoveElementCode.cs" />

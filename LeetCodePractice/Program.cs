@@ -22,6 +22,9 @@ namespace LeetCodePractice
             Console.WriteLine("7. Integer to Roman (Medium)");
             Console.WriteLine("8. Search Insert Position (Easy)");
             Console.WriteLine("9. Valid Sudoku (Medium)");
+            Console.WriteLine("10. Longest of Last Word (Easy)");
+            Console.WriteLine("11. Find the Index of the First Occurence in a String (Easy)");
+            Console.WriteLine("12. Divide Two Integers (Medium)");
             Console.Write("Input problem number: ");
             if (Int32.TryParse(Console.ReadLine(), out int quiz))
             {
@@ -67,7 +70,18 @@ namespace LeetCodePractice
                         Solution.ValidSudokuCode.ValidSudoku();
                         waitForContinue();
                         break;
-
+                    case 10:
+                        Solution.LongestOfLastWordCode.LongestOfLastWord();
+                        waitForContinue();
+                        break;
+                    case 11:
+                        Solution.FirstOccurenceCode.FirstOccurence();
+                        waitForContinue();
+                        break;
+                    case 12:
+                        Solution.DivideTwoIntegerCode.DivideTwoInteger();
+                        waitForContinue();
+                        break;
                     default:
                         Console.WriteLine("Invalid input.");
                         waitForContinue();
